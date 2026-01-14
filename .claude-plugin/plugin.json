@@ -1,0 +1,10 @@
+{
+  "name": "dragonfly-brand",
+  "description": "Dragonfly brand style guidelines - colors, typography, logos, and CSS variables for Dragonfly-branded projects. Includes Non Natural Grotesk fonts, logo SVGs, and complete style specifications.",
+  "author": {
+    "name": "Dragonfly",
+    "email": "tom@dragonflycapitalpartners.com"
+  },
+  "version": "1.0.0",
+  "homepage": "https://www.dragonfly.xyz"
+}
