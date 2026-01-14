@@ -1,17 +1,24 @@
 # Dragonfly Brand Plugin for Claude Code
 
-Official Dragonfly brand style guidelines for Claude Code. This plugin provides the `/dragonfly-style` skill for applying Dragonfly branding to documents, websites, CSS, and digital materials.
+Official Dragonfly brand style guidelines for Claude Code. This plugin provides the `dragonfly-style` skill for applying Dragonfly branding to documents, websites, CSS, and digital materials.
 
 ## Installation
 
+**Step 1: Add the marketplace**
 ```
-/plugin install https://github.com/dragonfly/dragonfly-brand.git
+/plugin marketplace add https://github.com/dragonfly-xyz/dragonfly-brand.git
 ```
 
-Or if hosted in a different location:
+**Step 2: Install the plugin**
 ```
-/plugin install <your-repo-url>
+/plugin install dragonfly-brand@dragonfly-brand
 ```
+
+Or browse available plugins:
+```
+/plugin
+```
+Then select "Discover" to find and install the dragonfly-brand plugin.
 
 ## What's Included
 
@@ -24,12 +31,12 @@ Automatically activated when you ask Claude to:
 
 ### Brand Assets
 
-**Fonts** (`skills/dragonfly-style/assets/fonts/`)
+**Fonts** (`plugins/dragonfly-brand/skills/dragonfly-style/assets/fonts/`)
 - `NONNaturalGrotesk-Regular.woff2`
 - `NONNaturalGrotesk-Bold.woff2`
 - `NONNaturalMono-Light.woff2`
 
-**Logos** (`skills/dragonfly-style/assets/logos/`)
+**Logos** (`plugins/dragonfly-brand/skills/dragonfly-style/assets/logos/`)
 - Logomark (light/dark)
 - Wordmark (light/dark)
 - Full logo (light/dark)

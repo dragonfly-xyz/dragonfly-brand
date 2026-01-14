@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dragonfly-brand",
+  "description": "Dragonfly brand assets and style guidelines for Claude Code",
+  "owner": {
+    "name": "Dragonfly",
+    "email": "tom@dragonflycapitalpartners.com"
+  },
+  "plugins": [
+    {
+      "name": "dragonfly-brand",
+      "description": "Dragonfly brand style guidelines - colors, typography, logos, and CSS variables for Dragonfly-branded projects",
+      "version": "1.0.0",
+      "author": {
+        "name": "Dragonfly",
+        "email": "tom@dragonflycapitalpartners.com"
+      },
+      "source": "./plugins/dragonfly-brand",
+      "category": "design",
+      "homepage": "https://www.dragonfly.xyz"
+    }
+  ]
+}
